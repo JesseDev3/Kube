@@ -1,6 +1,3 @@
-# Kube
-May want to seperate Kubernetes to this directory instead of repeating code for each available arch platform
-
 # KUBERNETES
 Detect OS and arch 
 Linux (x86-64 , ARM64)
