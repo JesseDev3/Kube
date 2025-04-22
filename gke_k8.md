@@ -35,7 +35,7 @@ gcloud container clusters delete online-boutique \
  - [Istio/Cloud](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/service-mesh-istio/README.md) Service Mesh
  - [Non-GKE](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md) (Minikube, Kind)
  - [AI](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/shopping-assistant/README.md) assistant using Gemini
- - /kustomize directory contains instructions for customizing the deployment of Online Boutique with other variations
+ - [/kustomize](https://github.com/GoogleCloudPlatform/microservices-demo/tree/main/kustomize) directory contains instructions for customizing the deployment of Online Boutique with other variations
 
 
   
