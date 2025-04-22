@@ -30,7 +30,12 @@ kubectl get service frontend-external | awk '{print $4}'
 gcloud container clusters delete online-boutique \
   --project=${PROJECT_ID} --region=${REGION}
 ```
-
+## Addition deployment options
+ - [Terraform](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/terraform)
+ - [Istio/Cloud](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/service-mesh-istio/README.md)Service Mesh
+ - [Non-GKE](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md)(Minikube, Kind)
+ - [AI](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/shopping-assistant/README.md) assistant using Gemini
+ - /kustomize directory contains instructions for customizing the deployment of Online Boutique with other variations
 
 
   
