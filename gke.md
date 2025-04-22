@@ -1,4 +1,4 @@
-# Clone GKE retail [example](https://github.com/aws-containers/retail-store-sample-app/blob/main/README.md)
+# Clone GKE retail [example](https://github.com/GoogleCloudPlatform/microservices-demo)
 ```bash
 git clone --depth 1 --branch v0 https://github.com/GoogleCloudPlatform/microservices-demo.git
 cd microservices-demo/
