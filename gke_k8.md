@@ -4,7 +4,7 @@ git clone --depth 1 --branch v0 https://github.com/GoogleCloudPlatform/microserv
 cd microservices-demo/
 ```
 - Export Google Cloud project and region and ensure the Google Kubernetes Engine API is enabled
-- - Substitute <PROJECT_ID> with the ID of your Google Cloud project
+- Substitute <PROJECT_ID> with the ID of your Google Cloud project
 ```bash
 export PROJECT_ID=<PROJECT_ID>
 export REGION=us-central1
@@ -33,7 +33,7 @@ gcloud container clusters delete online-boutique \
 ## Addition deployment options
  - [Terraform](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/terraform)
  - [Istio/Cloud](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/service-mesh-istio/README.md) Service Mesh
- - [Non-GKE](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md)(Minikube, Kind)
+ - [Non-GKE](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/docs/development-guide.md) (Minikube, Kind)
  - [AI](https://github.com/GoogleCloudPlatform/microservices-demo/blob/main/kustomize/components/shopping-assistant/README.md) assistant using Gemini
  - /kustomize directory contains instructions for customizing the deployment of Online Boutique with other variations
 
